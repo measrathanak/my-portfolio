@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '@/components/layout/Home.vue'
 import NotFound from '@/components/layout/NotFound.vue'
-<<<<<<< HEAD
 import Projects from '@/components/layout/Projects.vue'
 import Whyme from '@/components/layout/Whyme.vue'
 import Skills from '@/components/layout/Skills.vue'
@@ -14,11 +13,6 @@ const routes = [
   { path: '/Skills', component: Skills },
   { path: '/Whyme', component: Whyme },
   { path: '/Contact', component: Contact },
-=======
-
-const routes = [
-  { path: '/', component: Home },
->>>>>>> 429be68bf473c3c4d35b7ee32ac1c11a5bc61b5a
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
 ]
 

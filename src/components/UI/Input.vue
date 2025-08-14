@@ -8,11 +8,7 @@
       :id="id"
       :rows="type === 'textarea' ? rows : undefined"
       :placeholder="placeholder"
-<<<<<<< HEAD
       class="shadow-sm text-gray-900 text-sm rounded-lg block w-full p-2.5 focus:ring-primary-500 focus:border-primary-500 border border-b-blue-700 dark:bg-[#ffffff29] bg-primary"
-=======
-      class="shadow-sm text-gray-900 text-sm rounded-lg block w-full p-2.5 focus:ring-primary-500 focus:border-primary-500 border border-secondary dark:bg-[#ffffff29] bg-primary"
->>>>>>> 429be68bf473c3c4d35b7ee32ac1c11a5bc61b5a
     />
   </div>
 </template>
@@ -39,8 +35,4 @@ defineProps({
     default: 4,
   }, //Used only if type is 'textarea'
 })
-<<<<<<< HEAD
 </script>
-=======
-</script>
->>>>>>> 429be68bf473c3c4d35b7ee32ac1c11a5bc61b5a

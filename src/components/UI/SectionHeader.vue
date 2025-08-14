@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div class="relative flex flex-col items-center py-12">
     <div
       class="absolute inset-0 flex justify-center items-center pointer-events-none"
@@ -16,26 +15,21 @@
       {{ title }}
     </h2>
   </div>
-</template>
-
 
   <div class="relative">
     <header
-      class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#000c6cc] via-[#785ae4] to-secondary opacity-30 dark:opacity-20 blur-[100px] left-10 top-0 hidden md:block"
-    ></header>
-
-    <header
       class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#000c6cc] via-[#785ae4] to-secondary opacity-30 dark:opacity-20 blur-[100px] right-10 bottom-0 hidden md:block"
-    ></header>
+    >
+      <h2
+        class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-secondary stroke-text text-stroke-primary dark:text-stroke-secondary"
+        data-aos="fade-up"
+      >
+        {{ title }}
+      </h2>
+    </header>
   </div>
-  <h2
-    class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-secondary stroke-text text-stroke-primary dark:text-stroke-secondary"
-    data-aos="fade-up"
-  >
-    {{ title }}
-  </h2>
 </template>
->>>>>>> 429be68bf473c3c4d35b7ee32ac1c11a5bc61b5a
+
 <script setup>
 defineProps({
   title: {
@@ -43,19 +37,19 @@ defineProps({
     required: true,
   },
 })
-<<<<<<< HEAD
 </script>
 
 <style scoped>
 @keyframes gradient-move {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 .animate-gradient {
   background-size: 200% 200%;
   animation: gradient-move 6s linear infinite alternate;
 }
 </style>
-=======
-</script>
->>>>>>> 429be68bf473c3c4d35b7ee32ac1c11a5bc61b5a

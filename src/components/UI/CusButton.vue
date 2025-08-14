@@ -40,8 +40,4 @@ defineProps({
 .animate-rotate {
   animation: rotate 2s linear infinite;
 }
-<<<<<<< HEAD
 </style>
-=======
-</style>
->>>>>>> 429be68bf473c3c4d35b7ee32ac1c11a5bc61b5a
